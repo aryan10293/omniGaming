@@ -173,6 +173,7 @@ a:active {
 }/* Ensures the video fills the container */
 
 .video-background {
+    z-index: -1;
     position: relative;
     width: 100vw;
     height: 100vh;
