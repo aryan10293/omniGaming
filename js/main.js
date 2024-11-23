@@ -6,3 +6,12 @@ hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active')
     offScreenMenu.classList.toggle('active')
 })
+
+document.addEventListener("DOMContentLoaded", () => {
+  const video = document.querySelector("video");
+  if (video) {
+    video.play().catch((err) => {
+      console.error("Autoplay blocked:", err);
+    });
+  }
+});
