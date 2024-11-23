@@ -232,6 +232,10 @@ a:active {
     background-color: #4752c4;
     /* Slightly darker shade on hover */
 }
+/* .card{
+    text-align: center;
+    margin-top: 2rem;
+} */
 /*
  
 */
@@ -252,6 +256,52 @@ a:active {
         display: none;
         /* Hides the video */
     }
+}
+.buy::before,
+.buy::after,
+.learn::before,
+.learn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: ;
+    z-index: -1;
+}
+
+.buy::before,
+.learn::before {
+    top: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.buy::after,
+.learn::after {
+    bottom: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: blue;
+    margin-bottom: 3%;
+    height: 67vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+} 
+
+#one {
+    background-image: url('https://omnigamingorg.wordpress.com/wp-content/uploads/2023/09/242760_20230808080553_1.png');
+    margin-top: 1rem;
 }
 
 
