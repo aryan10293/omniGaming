@@ -257,6 +257,19 @@ a:active {
         /* Hides the video */
     }
 }
+.learn {
+    font-size: 14px;
+    position: relative;
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgb(88, 101, 242);
+    border: solid 1px rgb(88, 101, 242);
+    color: white;
+    margin-right: .5rem;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
 .buy::before,
 .buy::after,
 .learn::before,
@@ -266,7 +279,7 @@ a:active {
     left: 0;
     right: 0;
     height: 50%;
-    background-color: ;
+    background-color: blue;
     z-index: -1;
 }
 
@@ -284,24 +297,40 @@ a:active {
     border-bottom-right-radius: 50%;
 }
 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-bottom: 3%;
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+} 
+body{
+    height: 1000vh;
+}
+
+#one {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+        url('https://omnigamingorg.wordpress.com/wp-content/uploads/2023/09/242760_20230808080553_1.png');
+    margin-top: 1rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;
+}
+.section-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: blue;
-    margin-bottom: 3%;
-    height: 67vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-
-} 
-
-#one {
-    background-image: url('https://omnigamingorg.wordpress.com/wp-content/uploads/2023/09/242760_20230808080553_1.png');
+    
+}
+.section-header h2, .section-header p{
+    margin-bottom: 1rem;
+}
+.section-header section{
     margin-top: 1rem;
 }
-
-
