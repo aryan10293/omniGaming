@@ -248,9 +248,13 @@ a:active {
     .navsection{
         display: none;
     }
+    
 } 
 @media (min-width: 820px) {
     .ham-menu {
+        display: none;
+    }
+    .mobile{
         display: none;
     }
 }
@@ -262,6 +266,7 @@ a:active {
         /* Hides the video */
     }
 }
+
 .learn {
     font-size: 14px;
     position: relative;
@@ -463,6 +468,7 @@ body{
 .section-plans {
     background-color: white;
     padding: 4rem 0 4rem 0;
+    padding: 2rem !important;
 }
 
 .card-2 {
@@ -471,6 +477,7 @@ body{
     -moz-perspective: 150rem;
     position: relative;
     height: 52rem;
+    
 }
 
 .card__side {
@@ -523,6 +530,7 @@ body{
 }
 
 .card-2:hover .card__side--front-1,
+.card-2.active .card__side--front-1
 .card-2:hover .card__side--front-2,
 .card-2:hover .card__side--front-3 {
     -webkit-transform: rotateY(-180deg);
