@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 mobile.forEach(x => {
-  x.addEventListener('click', () => {
+  x.addEventListener('click', (e) => {
+    e.preventDefault()
     const card = btn.closest('.card-2')
     card.classList.toggle('ative')
   })
