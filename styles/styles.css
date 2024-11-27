@@ -480,74 +480,28 @@ body{
     
 }
 
-.card__side {
-    height: 52rem;
-    -webkit-transition: all 0.8s ease;
-    transition: all 0.8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 3px;
-    overflow: hidden;
-    -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-}
 
 .card__side--front {
     background-color: #fff;
 }
 
 .card__side--front-1 {
-    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    background: linear-gradient(-45deg, rgb(15,17,70), rgb(75,112,211));
 }
 
 .card__side--front-2 {
-    background: linear-gradient(-45deg, #f321d7, #ffec61);
+    background: linear-gradient(45deg, rgb(75, 112, 211), rgb(15, 17, 70));
 }
 
 .card__side--front-3 {
-    background: linear-gradient(-45deg, #24ff72, #9a4eff);
+    background: linear-gradient(-45deg, rgb(15, 17, 70), rgb(75, 112, 211));
 }
 
-.card__side--back {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
 
-.card__side--back-1 {
-    background: linear-gradient(-45deg, #64b5f6, #f403d1);
-}
 
-.card__side--back-2 {
-    background: linear-gradient(-45deg, #ffec61, #f321d7);
-}
-
-.card__side--back-3 {
-    background: linear-gradient(-45deg, #9a4eff, #24ff72);
-}
-
-.card-2:hover .card__side--front-1,
-.card-2.active .card__side--front-1
-.card-2:hover .card__side--front-2,
-.card-2:hover .card__side--front-3 {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-
-.card-2:hover .card__side--back {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-}
 
 .card__title {
-    height: 20rem;
-    padding: 4rem 2rem 2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    padding:  2rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -595,6 +549,7 @@ body{
     list-style: none;
     width: 80%;
     margin: 0 auto;
+    color: white;
 }
 
 .card__details ul li {
