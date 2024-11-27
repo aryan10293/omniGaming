@@ -624,7 +624,7 @@ i{
     font-size: 1rem;
 }
 .fa-check{
-    color: green;
+    color: rgba(0, 255, 0);
     margin-right: .5rem;
 
 }
