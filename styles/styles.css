@@ -620,3 +620,11 @@ body{
     color: red; 
     margin-right: .5rem;
 }
+i{
+    font-size: 1rem;
+}
+.fa-check{
+    color: green;
+    margin-right: .5rem;
+
+}
