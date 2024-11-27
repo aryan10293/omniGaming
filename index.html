@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onmi Gaming</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/ul.css">
     <script type="text/javascript" src="js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/df22adad32.js" crossorigin="anonymous" defer></script>
 </head>
@@ -86,7 +87,7 @@
             <h2>JOIN THE COMMUNITY</h2>
             <p>Be first in line to for events and information!</p>
             <section>
-                <div class="learn">Discord</div>
+                <a href='https://discord.gg/7fvBDHWsgY' target='_blank'class="learn">Discord</a>
             </section>
         </section>
     </div>
@@ -104,12 +105,26 @@
                         <div class="card__title card__title--1">
                             <h4 class="card__heading">Casual</h4>
                         </div>
+                        <div class="card-3">
+                            <h5>$0 / month</h5>
+                        </div>
     
                         <div class="card__details">
                             <ul>
                                 <li>Discounted hourly rate</li>
                                 <li>access to exclusive members-only events</li>
                                 <li>Discounted Food and Drinks</li>
+
+                                <li>10 free hours monthly</li>
+                                <li>Priority access to high-end systems</li>
+                                <li>Free participation in weekly events</li>
+                                <li>15% discount on in-house purchases</li>
+
+                                <li class="disabled"> <i class="fa-solid fa-xmark"></i> 20 free hours monthly</li>
+                                <li>Access to premium setups</li>
+                                <li>Reserved spots for tournaments</li>
+                                <li>Access to members-only lounges</li>
+                                <li>20% discount on in-lounge services</li>
                             </ul>
                         </div>
                     </div>
@@ -158,6 +173,93 @@
     
         <div class="u-center-text u-margin-top-huge">
             <a href="#" class="btn btn--green">Get Started</a>
+        </div>
+    </section>
+
+
+    <section class="plans__container">
+        <div class="plans">
+            <div class="plansHero">
+                <h1 class="plansHero__title">Simple, transparent pricing</h1>
+                <p class="plansHero__subtitle">No contracts. No suprise fees.</p>
+            </div>
+            <div class="planItem__container">
+                <!--free plan starts -->
+                <div class="planItem planItem--free">
+    
+                    <div class="card">
+                        <div class="card__header">
+                            <div class="card__icon symbol symbol--rounded"></div>
+                            <h2>Free</h2>
+                        </div>
+                        <div class="card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</div>
+                    </div>
+    
+                    <div class="price">$0<span>/ month</span></div>
+    
+                    <ul class="featureList">
+                        <li>2 links</li>
+                        <li>Own analytics platform</li>
+                        <li class="disabled">Chat support</li>
+                        <li class="disabled">Mobile application</li>
+                        <li class="disabled">Unlimited users</li>
+                    </ul>
+    
+                    <button class="button">Get Started</button>
+                </div>
+                <!--free plan ends -->
+    
+                <!--pro plan starts -->
+                <div class="planItem planItem--pro">
+                    <div class="card">
+                        <div class="card__header">
+                            <div class="card__icon symbol"></div>
+                            <h2>Pro</h2>
+                            <div class="card__label label">Best Value</div>
+                        </div>
+                        <div class="card__desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div>
+                    </div>
+    
+                    <div class="price">$18<span>/ month</span></div>
+    
+                    <ul class="featureList">
+                        <li>2 links</li>
+                        <li>Own analytics platform</li>
+                        <li>Chat support</li>
+                        <li class="disabled">Mobile application</li>
+                        <li class="disabled">Unlimited users</li>
+                    </ul>
+    
+                    <button class="button button--pink">Get Started</button>
+                </div>
+                <!--pro plan ends -->
+    
+                <!--entp plan starts -->
+                <div class="planItem planItem--entp">
+                    <div class="card">
+                        <div class="card__header">
+                            <div class="card__icon"></div>
+                            <h2>Enterprise</h2>
+                        </div>
+                        <div class="card__desc">Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</div>
+                    </div>
+    
+                    <div class="price">Let's Talk</div>
+    
+                    <ul class="featureList">
+                        <li>2 links</li>
+                        <li>Own analytics platform</li>
+                        <li>Chat support</li>
+                        <li>Mobile application</li>
+                        <li>Unlimited users</li>
+                        <li>Customize Panel</li>
+                    </ul>
+    
+                    <button class="button button--white">Get Started</button>
+                </div>
+                <!--entp plan ends -->
+    
+            </div>
         </div>
     </section>
 </body>

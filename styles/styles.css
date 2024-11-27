@@ -472,12 +472,8 @@ body{
 }
 
 .card-2 {
-    -webkit-perspective: 150rem;
-    perspective: 150rem;
-    -moz-perspective: 150rem;
     position: relative;
-    height: 52rem;
-    
+    margin-bottom: 2rem;
 }
 
 
@@ -501,16 +497,9 @@ body{
 
 
 .card__title {
-    padding:  2rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+    padding:  1rem;
+    display: flex;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -527,7 +516,7 @@ body{
 }
 
 .card__heading {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
@@ -554,7 +543,7 @@ body{
 
 .card__details ul li {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem;
 }
 
@@ -604,5 +593,30 @@ body{
     clear: both;
 }
 
+.card__side{
+    border-radius: 5%;
+}
+.card-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-3 h5{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
 
 
+
+
+
+
+.disabled{
+    color: grey;
+    
+}
+.disabled i{
+    color: red; 
+    margin-right: .5rem;
+}
