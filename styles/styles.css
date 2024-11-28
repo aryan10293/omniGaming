@@ -318,9 +318,9 @@ a:active {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
 } 
-body{
+/* body{
     height: 1000vh;
-}
+} */
 
 #one {
     background:
@@ -405,35 +405,32 @@ body{
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     color: black;
+    margin-bottom: 2rem;
 }
 
 .btn,
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
+    padding: .75rem;
     display: inline-block;
     border-radius: 0.5rem;
-    -webkit-transition: all 0.2s;
     transition: all 0.2s;
     position: relative;
-    font-size: 1.6rem;
-    border: none;
+    font-size: 1rem;
     cursor: pointer;
+    margin:  0 0 1rem;
 }
 
 .btn:hover {
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
     -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.0);
+    color: #fff;
 }
 
 .btn:hover::after {
     -webkit-transform: scaleX(1.4) scaleY(1.6);
     transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
 }
 
 .btn:active,
@@ -455,14 +452,11 @@ body{
 }
 
 .btn--green {
-    background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#3f5efb));
-    background: linear-gradient(to right, #fc466b, #3f5efb);
-    color: #fff;
+    /* background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#3f5efb)); */
+    background: #fff;
+    color: #151B54;
 }
 
-.btn--green::after {
-    background-color: #55c57a;
-}
 
 
 .section-plans {
@@ -531,7 +525,7 @@ body{
 }
 
 .card__details {
-    padding: 0 2rem 2rem;
+    padding: 0 2rem;
 }
 
 .card__details ul {
@@ -543,8 +537,8 @@ body{
 
 .card__details ul li {
     text-align: center;
-    font-size: 1rem;
-    padding: 1rem;
+    font-size: .8rem;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .card__details ul li:not(:last-child) {
@@ -627,4 +621,20 @@ i{
     color: rgba(0, 255, 0);
     margin-right: .5rem;
 
+}
+.card-4{
+    display: flex;
+    
+    align-items: center;
+    border-bottom: 1px solid #eee
+}
+.card-4:last-child {
+    border-bottom: none;
+}
+.card-4 .fa-xmark{
+    color: red;
+    margin-right: .5rem;
+}
+.card-4 li{
+    text-align: left;
 }
